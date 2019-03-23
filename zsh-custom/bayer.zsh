@@ -15,7 +15,8 @@ vault-safe() {
     unset VAULT_TOKEN
 }
 
-alias ssh="$HOME/dotfiles/scripts/vault-ssh"
+alias vault-ssh="$HOME/dotfiles/scripts/vault-ssh"
+alias ssh="vault-ssh"
 
 
 ######  CARTHAGE STUFF ###### 

@@ -9,6 +9,7 @@
 # Simply wraps the `ssh` command, fetching a signed key before executing.
 #
 # Usage:
+#    vault-ssh   # to authenticate with vault
 #    vault-ssh -i ~/.ssh/some_privatekey user@host
 #
 
@@ -25,6 +26,11 @@ if [ $? -ne 0 ]; then
   echo ''
   vault login -method=userpass -path=ping username=$USER password="$PW"
   unset PW
+fi
+
+if [ $# -eq 0 ]; then
+  echo "Authenticated to vault. No additional args, so exiting."
+  exit 0
 fi
 
 # Get the path to the key that will be used for this connection

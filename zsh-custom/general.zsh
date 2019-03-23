@@ -18,5 +18,4 @@ fi
 alias l="ls -alh"
 alias gs="git status"
 alias reload="source $HOME/.zshrc"
-alias stree="open -a SourceTree"
 
