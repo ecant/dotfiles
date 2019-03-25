@@ -7,5 +7,7 @@ alias old-logs="ssh stluapplogprd01.monsanto.com -l ecant"
 alias vault-looney="alias vault-looney; vault-safe tree secret/looney-tunes"
 alias vault-ducks="alias vault-ducks; vault-safe tree secret/mighty-ducks"
 
-
 alias stree="open -a SourceTree"
+
+### OH MY ZSH STUFF ###
+DEFAULT_USER="ecant"

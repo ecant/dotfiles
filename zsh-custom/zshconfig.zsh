@@ -1,6 +1,4 @@
 
-### OH MY ZSH STUFF ###
-DEFAULT_USER="ecant"
 
 
 ### REGULAR ZSH STUFF ###
