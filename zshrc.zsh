@@ -2,6 +2,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+alias dircolors=gdircolors
+
 # Set name of the theme to load
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
@@ -30,6 +32,6 @@ ZSH_CUSTOM="$HOME/dotfiles/zsh-custom"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z brew history npm vscode extract common-aliases)
+plugins=(git z brew history npm vscode extract common-aliases zsh-dircolors-solarized)
 
 source $ZSH/oh-my-zsh.sh
