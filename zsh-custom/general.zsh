@@ -1,9 +1,7 @@
 
 ######  GENERAL STUFF ###### 
 
-
 # Updating PATH to include more locations
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 
 # Preferred editor for local and remote sessions
@@ -13,13 +11,10 @@ else
   export EDITOR='code'
 fi
 
-alias reload="source $HOME/.zshrc"
-alias k="clear"
+### NVM CONFIG
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
-# Promps for safety
-alias rm='rm -i'
-alias mv="mv -iv"
-alias cp="cp -iv"
-
-alias gs='git status'
-alias l='gls --color -alh --group-directories-first'
+### OH MY ZSH STUFF ###
+DEFAULT_USER="ecant"

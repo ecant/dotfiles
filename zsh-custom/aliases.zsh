@@ -1,0 +1,12 @@
+alias stree="open -a SourceTree"
+
+alias reload="source $HOME/.zshrc"
+alias k="clear"
+
+# Promps for safety
+alias rm='rm -i'
+alias mv="mv -iv"
+alias cp="cp -iv"
+
+alias gs='git status'
+alias l='gls --color -alh --group-directories-first'

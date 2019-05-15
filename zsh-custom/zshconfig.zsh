@@ -1,6 +1,4 @@
 
-
-
 ### REGULAR ZSH STUFF ###
 HISTFILE=~/.histfile
 HISTSIZE=1000
