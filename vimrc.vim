@@ -2,9 +2,8 @@ set nocompatible
 
 " solarized colorscheme options
 set background=dark
-"set t_Co=16
-"let g:solarized_termcolors=16
-"let g:solarized_termtrans=1
+let g:solarized_termcolors=16
+let g:solarized_termtrans=1
 colorscheme solarized
 
 " main options
