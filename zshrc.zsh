@@ -3,6 +3,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
+export ZSH_DISABLE_COMPFIX="true"
+
 alias dircolors="gdircolors"
 
 # Set name of the theme to load
