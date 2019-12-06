@@ -33,3 +33,11 @@ This assumes you have cloned the dotfiles repo to your `$HOME/dotfiles` director
   ln -s $HOME/dotfiles/zshrc.zsh $HOME/.zshrc
   ln -s $HOME/dotfiles/vim.symlink $HOME/.vim
 ```
+
+# final steps
+* Restart iTerm
+* Run `setupsolarized` to configure the zsh-dircolors-solarized plugin
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
