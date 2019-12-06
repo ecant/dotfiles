@@ -7,6 +7,3 @@ Host github.com
 Host bitbucket.org
     HostName bitbucket.org
     IdentityFile ~/.ssh/bitbucket_rsa
-Host git-codecommit.*.amazonaws.com
-  User APKATU2APYXOHPPW6457
-  IdentityFile ~/.ssh/thumbraise_codecommit_rsa
