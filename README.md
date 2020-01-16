@@ -2,7 +2,6 @@
 ```
 brew install coreutils
 brew install zsh
-sudo -s 'echo /usr/local/bin/zsh >> /etc/shells'
 chsh -s /usr/local/bin/zsh
 ```
 
@@ -38,6 +37,3 @@ This assumes you have cloned the dotfiles repo to your `$HOME/dotfiles` director
 * Restart iTerm
 * Run `setupsolarized` to configure the zsh-dircolors-solarized plugin
 
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
