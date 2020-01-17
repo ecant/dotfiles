@@ -12,3 +12,6 @@ alias gs='git status'
 alias l='gls --color -alh --group-directories-first'
 
 alias droidsim='emulator -avd Pixel_API_28 &'
+
+alias blackspider='networksetup -setautoproxystate Wi-Fi off'
+
