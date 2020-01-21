@@ -2,7 +2,6 @@
 ```
 brew install coreutils
 brew install zsh
-sudo -s 'echo /usr/local/bin/zsh >> /etc/shells'
 chsh -s /usr/local/bin/zsh
 ```
 
@@ -33,3 +32,8 @@ This assumes you have cloned the dotfiles repo to your `$HOME/dotfiles` director
   ln -s $HOME/dotfiles/zshrc.zsh $HOME/.zshrc
   ln -s $HOME/dotfiles/vim.symlink $HOME/.vim
 ```
+
+# final steps
+* Restart iTerm
+* Run `setupsolarized` to configure the zsh-dircolors-solarized plugin
+
