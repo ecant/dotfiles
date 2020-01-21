@@ -11,4 +11,4 @@ alias cp="cp -iv"
 alias gs='git status'
 alias l='gls --color -alh --group-directories-first'
 
-alias droidsim='emulator -avd Pixel_API_28 &'
+alias droidsim='emulator -avd Pixel_3_API_28 &'
