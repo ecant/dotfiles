@@ -13,10 +13,5 @@ else
   export EDITOR='code'
 fi
 
-### NVM CONFIG
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
-
 ### OH MY ZSH STUFF ###
-DEFAULT_USER="ecant"
+DEFAULT_USER=$(whoami)
