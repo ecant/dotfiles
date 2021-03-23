@@ -9,3 +9,4 @@ bindkey -v
 zstyle :compinstall filename '$HOME/.zshrc'
 autoload -Uz compinit
 
+echo "Reminder to periodically run 'brew update' and check for outdated packages!"
