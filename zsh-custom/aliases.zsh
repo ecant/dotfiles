@@ -19,3 +19,6 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
+
+alias dd='cd ~/Library/Developer/Xcode/DerivedData'
+alias package-clean="rm -rf ~/Library/Developer/Xcode/DerivedData/StitchFix-*/SourcePackages; rm -rf ~/Library/Caches/org.swift.swiftpm"
