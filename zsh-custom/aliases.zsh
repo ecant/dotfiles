@@ -21,4 +21,6 @@ git config --global alias.ci commit
 git config --global alias.st status
 
 alias dd='cd ~/Library/Developer/Xcode/DerivedData'
-alias package-clean="rm -rf ~/Library/Developer/Xcode/DerivedData/StitchFix-*/SourcePackages; rm -rf ~/Library/Caches/org.swift.swiftpm"
+
+alias nuke_packages="rm -rf ~/Library/Developer/Xcode/DerivedData/StitchFix-*/SourcePackages; rm -rf ~/Library/Caches/org.swift.swiftpm"
+alias nuke_xcode="rm -rf ~/Library/Developer/Xcode/DerivedData; rm -rf ~/Library/Caches/org.swift.swiftpm"
