@@ -10,7 +10,10 @@ alias cp="cp -iv"
 
 alias gs='git status'
 
-alias gitup='git status; git stash; git checkout main; git pull; git checkout -; git merge main; git status; echo "Run git stash pop to return to previous state"'
+alias xclose='osascript ~/dotfiles/close_xcode_project.applescript'
+alias xopen='open ~/dev/sfix/iOSApp/StitchFix.xcworkspace'
+
+alias gitup='git status; xclose; git stash; git checkout main; git pull; git checkout -; git merge main; git status; echo "Run git stash pop to return to previous state"'
 
 alias l='gls --color -alh --group-directories-first'
 
